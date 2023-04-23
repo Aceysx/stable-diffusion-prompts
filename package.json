@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "author": "sixin <xinsi@thoughtworks.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^1.0.0-beta.12",
+    "qrcode.react": "^3.1.0",
+    "react-toastify": "^9.1.2",
+    "umi": "^4.0.63",
+    "react-copy-to-clipboard": "^5.1.0",
+    "umi-request": "^1.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
